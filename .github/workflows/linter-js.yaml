@@ -1,0 +1,15 @@
+name: JavaScript Linter
+
+on:
+  pull_request:
+    paths:
+      - '**.js'
+
+jobs:
+  StandardJS:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: npm install standard --global
+      - run: standard
