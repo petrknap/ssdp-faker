@@ -1,4 +1,4 @@
-name: Lint JS
+name: JavaScript Linter
 
 on:
   pull_request:

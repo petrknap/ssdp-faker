@@ -1,3 +1,5 @@
 authors
 donation
+github-workflow linter-docker
+github-workflow linter-js
 license LGPL-3.0-or-later
